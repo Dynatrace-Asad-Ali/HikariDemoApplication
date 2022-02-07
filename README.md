@@ -19,6 +19,8 @@ Insert dummy data into the employee table
 insert into employee (101, 'John');
 ```
 
+Update the database settings in `src/main/resources/application.properties` file.
+
 
 Once all the components of the database are in place, build the springboot application
 
