@@ -22,7 +22,7 @@ name: Build and deploy JAR app to Azure Web App
 env:
   AZURE_WEBAPP_NAME: hikari-pool    # set this to the name of your Azure Web App
   JAVA_VERSION: '8'                  # set this to the Java version to use
-  DISTRIBUTION: jdkfile              # set this to the Java distribution
+  DISTRIBUTION: temurin              # set this to the Java distribution
 
 on:
   push:
